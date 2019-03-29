@@ -1,4 +1,3 @@
-#!bin/bash
 
 # 基础镜像
 FROM resin/raspberrypi3-alpine-python:slim
@@ -22,4 +21,4 @@ EXPOSE $PORT/tcp
  # 添加挂载点
 VOLUME ["/usr/src/app/"]
 
- CMD ["python","/usr/src/app/run.py"] 
+CMD ["python","/usr/src/app/run.py"] 

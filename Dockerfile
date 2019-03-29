@@ -1,3 +1,4 @@
+#!bin/bash
 # 基础镜像
 FROM python:2.7-alpine
 # 维护者信息

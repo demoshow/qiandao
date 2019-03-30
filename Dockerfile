@@ -1,6 +1,7 @@
 
 # 基础镜像
-FROM resin/raspberrypi3-alpine-python:slim
+
+FROM aarch64/python:alpine
 
  # 维护者信息
 MAINTAINER demoshow <demoshow@github>

@@ -1,7 +1,7 @@
 
 # 基础镜像
 
-FROM aarch64/python:alpine
+FROM aarch64/python2
 
  # 维护者信息
 MAINTAINER demoshow <demoshow@github>
